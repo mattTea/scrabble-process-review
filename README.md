@@ -83,7 +83,7 @@ scrabble.score # => 41
 
 ------
 
-Reached this point in 30 mins [screen recording here]()
+Reached this point in 30 mins [screen recording here](https://drive.google.com/open?id=1WWJgWAqvJDrJ3NBcnIq4kpUCrHEgLybl)
 
 ------
 
@@ -98,3 +98,10 @@ Reached this point a few mins later
 8. Handle 'nil'
 
 9. Handle capitalisation
+
+------
+
+## To download
+
+1. Clone this repo
+2. Copy path to `SpecRunner.html` to the browser to see the tests run
