@@ -1,7 +1,7 @@
 Scrabble Process Review
 =======================
 
-## Requirements
+## Requirements
 
 Given a word, compute the scrabble score for that word.
 
@@ -11,15 +11,15 @@ Given a word, compute the scrabble score for that word.
 
 You'll need these:
 
-Letter                      	Value
-A, E, I, O, U, L, N, R, S, T  	1
-D, G                          	2
-B, C, M, P                    	3
-F, H, V, W, Y	                  4
-K	                              5
-J, X	                          8
-Q, Z	                          10
-
+Letter | Value
+------------------------- | -----
+A, E, I, O, U, L, N, R, S, T | 1
+D, G | 2
+B, C, M, P | 3
+F, H, V, W, Y | 4
+K | 5
+J, X | 8
+Q, Z | 10
 
 Examples "cabbage" should be scored as worth 14 points:
 
@@ -76,3 +76,15 @@ scrabble.score # => 41
 4. Should return correct score for 2 letter word
   - Loop through each letter in a word and get the letter score for that word
   - Add score for each letter together
+
+5. Handle longer word
+
+6. Handle empty string
+
+------
+
+Reached this point in 30 mins [screen recording here]()
+
+------
+
+7. Handle white space

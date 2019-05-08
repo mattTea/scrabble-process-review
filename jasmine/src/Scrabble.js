@@ -28,6 +28,7 @@ var scores = {
 }
 
 function scrabble(word) {
+  if (!/^[a-z]+$/i.test(word)) return 0
   var score = 0
   for (var i = 0; i < word.length; i++) {
     score += scores[word[i]]
