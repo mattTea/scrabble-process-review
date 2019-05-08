@@ -70,3 +70,9 @@ scrabble.score # => 41
 1. Scrabble is a function that takes a word and should return an integer score
 
 2. Should return '1' for scrabble("a")
+
+3. Should return '5' for scrabble("k")
+
+4. Should return correct score for 2 letter word
+  - Loop through each letter in a word and get the letter score for that word
+  - Add score for each letter together

@@ -6,4 +6,8 @@ describe("Scrabble", function() {
   it("returns 5 for string of 'k'", function() {
     expect(scrabble("k")).toEqual(5)
   })
+
+  it("returns 2 for string of 'is'", function() {
+    expect(scrabble("is")).toEqual(2)
+  })
 })
