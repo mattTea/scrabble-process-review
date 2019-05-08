@@ -88,3 +88,13 @@ Reached this point in 30 mins [screen recording here]()
 ------
 
 7. Handle white space
+
+------
+
+Reached this point a few mins later
+
+------
+
+8. Handle 'nil'
+
+9. Handle capitalisation
